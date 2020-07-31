@@ -1,0 +1,242 @@
+/*初始化*/
+h1,h2,h3,h4,p,div,body,ul,li,html,a,img{margin: 0;padding: 0;}
+body{
+    width: 100%;
+}
+a{text-decoration:none;color:rgba(18,18,18,1);}
+a:link,a:visited{
+ text-decoration:none;  /*超链接无下划线*/
+}
+
+/*顶部导航*/
+.top_bar{
+    margin: 0;
+    padding: 0;
+    padding-top: 54px;
+    color:rgba(18,18,18,1);    
+}
+
+/*左侧 logo*/
+
+.name{
+    /* float: left; */
+    font-size: 16px;
+    font-family:PingFangSC-Regular,PingFang SC;
+    font-weight:400;
+    color:rgba(18,18,18,1);
+    line-height:28px;
+    /* margin-top: 54px; */
+    margin-left: 6%;
+}
+
+/*右侧*/
+.menu_bar{
+    float: right;
+    /* margin-top: 54px; */
+    margin-right: 6%;
+}
+.menu_bar li{
+    float: left;
+    margin-left: 30px;
+    list-style: none;
+    font-size:16px;
+    font-family:PingFangSC-Regular,PingFang SC;
+    font-weight:400;
+    color:rgba(18,18,18,1);
+    line-height:28px
+}
+
+/*头像*/
+.avatar img{
+    display: block;
+    width: 140px;
+    height: 140px;
+    margin-top: 140px;
+    margin-left: calc(50% - 70px);
+}
+
+/*标题*/
+h1{
+    width:508px;
+    font-size:40px;
+    font-family:PingFangSC-Medium,PingFang SC;
+    font-weight:500;
+    color:rgba(18,18,18,1);
+    line-height:56px;
+    margin-left: calc(50% - 254px);
+    text-align: center;
+    margin-top: 56px;
+}
+
+.about_me{
+    width: 50%;
+    font-size:24px;
+    font-family:PingFangSC-Regular,PingFang SC;
+    font-weight:400;
+    color:rgba(78,78,78,1);
+    line-height:48px;
+    text-align: center;
+    margin-left: 25%;
+    margin-top: 20px;
+}
+
+/*账号*/
+.account{
+    text-align: center;
+    margin-top: 50px;
+}
+.account img{
+    width: 50px;
+    height: 50px;
+    margin: 0 20px;
+}
+
+/*学习笔记*/
+.notes{
+    padding-top: 70px;
+}
+.notes_title{
+    width: 50%;
+    font-size:24px;
+    font-family:PingFangSC-Medium,PingFang SC;
+    font-weight:500;
+    color:rgba(18,18,18,1);
+    line-height:40px;
+    text-align: center;
+    margin-left: 25%;
+}
+
+/*内容部分*/
+.notes ul{
+    width: 1020px;
+    margin: 0;
+    padding: 0px;
+    margin-left: calc(50% - 510px);
+    margin-top: 50px;
+}
+
+.notes li{
+    margin: 0;
+    padding: 0px;
+    float: left;
+    margin: 0 40px;
+    list-style: none;
+}
+
+h3{
+    width:260px;
+    margin-top: 14px;
+    font-size:20px;
+    font-family:PingFangSC-Medium,PingFang SC;
+    font-weight:500;
+    color:rgba(18,18,18,1);
+    line-height:28px;
+}
+h4{
+    width:260px;
+    margin-top: 4px;
+    font-size:16px;
+    font-family:PingFangSC-Regular,PingFang SC;
+    font-weight:400;
+    color:rgba(78,78,78,1);
+    line-height:24px;
+}
+.notes ul:after {
+    display:block; 
+    content:"clear"; 
+    clear:both; 
+    line-height:0;
+    visibility:hidden;
+}
+.notes a{
+    display: block;
+    font-size:16px;
+    font-family:PingFangSC-Regular,PingFang SC;
+    font-weight:400;
+    color:rgba(18,18,18,1);
+    line-height:22px;
+    text-align: center;
+    margin: 40px 0px;
+}
+
+/*内容推荐*/
+.tool{
+    margin-top: 100px;
+}
+.tool_title{
+    width: 50%;
+    font-size:24px;
+    font-family:PingFangSC-Medium,PingFang SC;
+    font-weight:500;
+    color:rgba(18,18,18,1);
+    line-height:40px;
+    text-align: center;
+    margin-left: 25%;
+}
+
+/*内容部分*/
+.tool ul{
+    width: 1000px;
+    margin: 0;
+    padding: 0px;
+    margin-left: calc(50% - 500px);
+    margin-top: 50px;
+}
+
+.tool li{
+    margin: 0;
+    padding: 0px;
+    float: left;
+    margin: 0 30px;
+    list-style: none;
+}
+
+h3{
+    width:260px;
+    margin-top: 14px;
+    font-size:20px;
+    font-family:PingFangSC-Medium,PingFang SC;
+    font-weight:500;
+    color:rgba(18,18,18,1);
+    line-height:28px;
+}
+h4{
+    width:260px;
+    margin-top: 4px;
+    font-size:16px;
+    font-family:PingFangSC-Regular,PingFang SC;
+    font-weight:400;
+    color:rgba(78,78,78,1);
+    line-height:24px;
+}
+.tool ul:after {
+    display:block; 
+    content:"clear"; 
+    clear:both; 
+    line-height:0;
+    visibility:hidden;
+}
+.tool a{
+    display: block;
+    font-size:16px;
+    font-family:PingFangSC-Regular,PingFang SC;
+    font-weight:400;
+    color:rgba(18,18,18,1);
+    line-height:22px;
+    text-align: center;
+    margin: 40px 0px;
+}
+
+/*底部*/
+
+.foot a{
+    display: block;
+    font-size:16px;
+    font-family:PingFangSC-Regular,PingFang SC;
+    font-weight:400;
+    color: #494949;
+    line-height:22px;
+    text-align: center;
+    margin-bottom: 40px;
+    margin-top: 80px;
+}
